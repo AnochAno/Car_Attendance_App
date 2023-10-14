@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".table">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Car Details"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_margin="40dp">
+
+            <TableRow
+                android:background="@color/green">
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:text="carNo"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="15dp"/>
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:text="NIC"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="15dp"/>
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:text="Name"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="15dp"/>
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:text="Phone"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="15dp"/>
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:text="Email"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="15dp"/>
+
+
+
+            </TableRow>
+
+
+
+
+        </TableLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
