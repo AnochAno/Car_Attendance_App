@@ -1,0 +1,29 @@
+ {
+  "project_info": {
+    "project_number": "3723947555",
+    "project_id": "car-wash-center-ce260",
+    "storage_bucket": "car-wash-center-ce260.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3723947555:android:fa34ad95cccba8a31b4b96",
+        "android_client_info": {
+          "package_name": "com.example.car_wash_center"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNrZ2FDCFz4-mAhuE1WoSFrcuIaDzG-M0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
