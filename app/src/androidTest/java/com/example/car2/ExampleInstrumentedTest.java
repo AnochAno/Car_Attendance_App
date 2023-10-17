@@ -1,4 +1,4 @@
-package com.example.car_wash_center;
+package com.example.car2;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.car_wash_center", appContext.getPackageName());
+        assertEquals("com.example.car2", appContext.getPackageName());
     }
 }

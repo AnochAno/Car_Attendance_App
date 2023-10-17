@@ -1,4 +1,4 @@
-package com.example.car_wash_center;
+package com.example.car2;
 
 import org.junit.Test;
 

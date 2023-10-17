@@ -12,5 +12,7 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Car_Wash_Center"
-include ':app'
+
+rootProject.name = "Car2"
+include(":app")
+ 
