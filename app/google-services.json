@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "819280143605",
+    "project_id": "car2-5fbe7",
+    "storage_bucket": "car2-5fbe7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819280143605:android:04138e86cc90507ce551bc",
+        "android_client_info": {
+          "package_name": "com.example.car2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDXbWlIpba3h6aPL9m8wj6LdflkFVHcs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
