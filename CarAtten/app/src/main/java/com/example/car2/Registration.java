@@ -3,6 +3,8 @@ package com.example.car2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import com.google.firebase.auth.FirebaseAuth;
+
 
 public class Registration extends AppCompatActivity {
 
@@ -30,23 +32,24 @@ public class Registration extends AppCompatActivity {
                 String nic = nic.getText().toString().trim();
                 String phone = phone.getText().toString().trim();
 
-                if(carno.isEmpty() || Drivername.isEmpty() || nic.isEmpty() || phone.isEmpty()){
+                if (carno.isEmpty() || Drivername.isEmpty() || nic.isEmpty() || phone.isEmpty()) {
                     Toast.makeText(Registration.this, "Please fill all the fields", Toast.LENGTH_SHORT).show();
-                }else{
-                    auth.createUserWithEmailAndPassword(carno,Drivername,nic,phone).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                } else {
+                    auth.createUserWithEmailAndPassword(carno, Drivername, nic, phone).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
-                            if(task.isSuccessful()){
+                            if (task.isSuccessful()) {
                                 Toast.makeText(Registration.this, "Registration Successful", Toast.LENGTH_SHORT).show();
-                                Intent intent = new Intent(Registration.this,Login.class);
+                                Intent intent = new Intent(Registration.this, Login.class);
                                 startActivity(intent);
-                            }else{
+                            } else {
                                 Toast.makeText(Registration.this, "Registration Failed", Toast.LENGTH_SHORT).show();
                             }
                         }
                     });
                 }
             }
-        }
+              });
     }
 }
+
